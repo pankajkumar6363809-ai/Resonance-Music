@@ -1,0 +1,6 @@
+{
+  "name": "Resonance",
+  "description": "A sleek, immersive music player featuring curated albums, classical ragas, bollywood hits, global search with streaming preview, synchronized lyrics, and customizable playlists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

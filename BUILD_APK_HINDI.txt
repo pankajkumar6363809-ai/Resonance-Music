@@ -1,0 +1,12 @@
+RESONANCE APK BANANE KA TARIKA
+
+Is ZIP mein aapka Android source project aur GitHub Actions build workflow hai. Is ChatGPT runtime mein Android SDK/network available nahi hai, isliye yahan APK compile karke test karna mumkin nahi hua.
+
+1. Is ZIP ko apne GitHub account par ek naye repository mein upload karein.
+2. Repository ke Actions tab mein jaayein.
+3. “Build Resonance APK” workflow select karein.
+4. “Run workflow” dabayein.
+5. Build successful hone par run ke neeche Artifacts se “resonance-debug-apk” download karein.
+6. ZIP extract karke APK phone par install karein. Phone mein “Install unknown apps” permission allow karni pad sakti hai.
+
+Note: Ye debug APK hogi, Play Store release APK nahi. Workflow ke run hone par agar compilation error aata hai, to Actions ke log mein exact error milega. External music APIs ya API keys ka kaam build hone se alag hai; APK build hone ka matlab har streaming API ka chalna guaranteed nahi hai.
